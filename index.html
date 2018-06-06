@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/style2.css" />
+    <title>Mon Mémento</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>Mémento</h1>
+      <section class="row">
+        <!-- GESTION DE DOCUMENTS -->
+        <div class="table-responsive col-lg-6">
+          <h2>Gestion de documents</h2>
+          <table class="table-striped table-bordered">
+            <thead>
+              <tr>
+                <th>Commande</th>
+                <th>Description</th>
+                <th>Exemple</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv monFichier nomDuDossier/autreDossier/monFichier</td>
+              </tr>
+              <tr>
+                <td>rm</td>
+                <td>Supprimer un dossier ou un fichier</td>
+                <td>rm monDossier</td>
+              </tr>
+              <tr>
+                <td>touch</td>
+                <td>Créer un fichier</td>
+                <td>touch monFichier</td>
+              </tr>
+              <tr>
+                <td>ls</td>
+                <td>Afficher le contenu du dossier courant</td>
+                <td>ls</td>
+              </tr>
+              <tr>
+                <td>ls</td>
+                <td>Afficher le contenu d'un dossier</td>
+                <td>ls nomDuDossier</td>
+              </tr>
+              <tr>
+                <td>pwd</td>
+                <td>Afficher le chemin du dossier courant</td>
+                <td>pwd</td>
+              </tr>
+              <tr>
+                <td>cd</td>
+                <td>Se déplacer vers un autre dossier</td>
+                <td>cd dossier/autreDossier</td>
+              </tr>
+              <tr>
+                <td>dpkg</td>
+                <td>Installer un paquet Debian (.deb)</td>
+                <td>dpkg programmeDebianAInstaller.deb</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ouvrir un programme</td>
+                <td>firefox</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ouvrir un fichier avec un programme</td>
+                <td>nano index.html</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive col-lg-6">
+          <h2>Gestion de documents</h2>
+          <table class="table-striped table-bordered">
+            <thead>
+              <tr>
+                <th>Commande</th>
+                <th>Description</th>
+                <th>Exemple</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+              <tr>
+                <td>mv</td>
+                <td>Déplacer un dossier/fichier</td>
+                <td>mv index.html Documents/index.html</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
+<!--
+GESTION DE L'ORDINATEUR
+
+  <section>
+    <h2>Gestion de l'ordinateur</h2>
+    <div class="gris">
+      <p> <strong>passer en mode administrateur</strong>  </p>
+      <p class="command">sudo -s</p>
+    </div>
+    <div class="blanc">
+      <p> <strong>quitter le mode administrateur</strong>  </p>
+      <p class="command">exit</p>
+    </div>
+    <div class="gris">
+      <p> <strong>avoir la liste des paquets à mettre à jour</strong>  </p>
+      <p class="command">apt upgrade</p>
+    </div>
+    <div class="blanc">
+      <p> <strong>mettre à jour les paquets</strong>  </p>
+      <p class="command">apt install</p>
+    </div>
+  </section>
+
+ autre
+
+  <section>
+    <h2>Divers</h2>
+    <div class="gris">
+      <p><strong>Savoir que je ne suis pas en admin</strong>  </p>
+      <p class="command">$ est affiché</p>
+    </div>
+  <div class="blanc">
+    <p> <strong>Savoir que je suis en admin</strong>  </p>
+    <p class="command">#</p>
+  </div>
+  <div class="gris">
+    <p><strong>Réaliser plusieurs commandes d'un coup</strong></p>
+    <p class="command">&&</p>
+  </div>
+  <div class="blanc">
+    <p> <strong>remplacer</strong> /home/user/</p>
+    <p class="command">~</p>
+  </div>
+  </section>
+ git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/egalland/test.git
+git push -u origin master -->
