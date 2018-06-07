@@ -1,0 +1,44 @@
+GIT
+
+
+
+
+~ /home/user
+touche super
+$
+#
+..
+rm
+touch
+cat
+man
+version Ubuntu
+
+HTML
+
+p
+br
+h1
+strong
+mark
+ul
+ol
+li
+em
+a href title
+id
+class
+img src alt
+figure
+figcaption
+link rel href
+span
+div
+
+FLEXBOX
+
+CSS
+
+BS
+
+RAcCOURCI

@@ -72,12 +72,12 @@
                 <td>Ouvrir un fichier avec un programme</td>
                 <td>nano index.html</td>
               </tr>
-
             </tbody>
           </table>
         </div>
+        <!-- GESTION DE L'ORDINATEUR -->
         <div class="table-responsive col-lg-6">
-          <h2>Gestion de documents</h2>
+          <h2>Gestion de l'ordinateur</h2>
           <table class="table-striped table-bordered">
             <thead>
               <tr>
@@ -88,47 +88,150 @@
             </thead>
             <tbody>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>sudo -s</td>
+                <td>Passer en mode super utilisateur</td>
+                <td></td>
               </tr>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>exit</td>
+                <td>Quitter le mode super utilisateur</td>
+                <td></td>
               </tr>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>upgrade</td>
+                <td>Mettre la liste des paquets à jour</td>
+                <td>sudo apt upgrade</td>
               </tr>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>install</td>
+                <td>Mettre à jour les paquets</td>
+                <td>sudo apt install</td>
               </tr>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>install</td>
+                <td>Forcer l'installation de paquets manquants</td>
+                <td>sudo apt install -f</td>
               </tr>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>install</td>
+                <td>Installer un paquet</td>
+                <td>sudo apt install nomDuPaquet</td>
               </tr>
               <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
-              </tr>
-              <tr>
-                <td>mv</td>
-                <td>Déplacer un dossier/fichier</td>
-                <td>mv index.html Documents/index.html</td>
+                <td>search</td>
+                <td>Chercher dans la liste de paquet</td>
+                <td>apt search maRecherche</td>
               </tr>
             </tbody>
           </table>
+        </div>
+      </section>
+      <section class="row">
+        <!-- GIT ET GITHUB -->
+        <div class="table-responsive col-lg-6">
+          <h2>Git et Github</h2>
+          <table class="table-striped table-bordered">
+            <thead>
+              <tr>
+                <th>Commande</th>
+                <th>Description</th>
+                <th>Exemple</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>config</td>
+                <td>Configurer le nom d'utilisateur</td>
+                <td>git config --global user.name "user"</td>
+              </tr>
+              <tr>
+                <td>config</td>
+                <td>Configurer le mail de l'utilisateur</td>
+                <td>git config --global user.mail "mail"</td>
+              </tr>
+              <tr>
+                <td>init</td>
+                <td>Initialiser git</td>
+                <td>git init</td>
+              </tr>
+              <tr>
+                <td>add</td>
+                <td>Ajouter un document</td>
+                <td>git add nomDuDocument</td>
+              </tr>
+              <tr>
+                <td>add</td>
+                <td>Ajouter tous les documents</td>
+                <td>git add .</td>
+              </tr>
+              <tr>
+                <td>commit</td>
+                <td>Faire le premier commit</td>
+                <td>git commit -m "Une texte qui décrit ce que j'ai fait"</td>
+              </tr>
+              <tr>
+                <td>remote</td>
+                <td>Définir le dépot distant où va notre dépot local</td>
+                <td>git remote add origin https://github.com/user/nomDuRepo.git</td>
+              </tr>
+              <tr>
+                <td>push</td>
+                <td>Envoyer notre dépot</td>
+                <td>git push -u origin master</td>
+              </tr>
+              <tr>
+                <td>commit</td>
+                <td>Faire un commit lorsqu'on a changé un fichier</td>
+                <td>git commit -am "Texte décrivant la modification"</td>
+              </tr>
+              <tr>
+                <td>log</td>
+                <td>Voir les commits qui ont été fait</td>
+                <td>git log</td>
+              </tr>
+              <tr>
+                <td>pull</td>
+                <td>Mettre à jour le dépot local</td>
+                <td>git pull</td>
+              </tr>
+              <tr>
+                <td>status</td>
+                <td>Status des fichiers</td>
+                <td>git status</td>
+              </tr>
+              <tr>
+                <td>branch</td>
+                <td>Lister les branchs</td>
+                <td>git branch -a</td>
+              </tr>
+              <tr>
+                <td>branch</td>
+                <td>Créer une branch</td>
+                <td>git branch nomDeMaNouvelleBranch</td>
+              </tr>
+              <tr>
+                <td>checkout</td>
+                <td>Basculer vers une autre branch</td>
+                <td>git checkout nomDeMaBranch</td>
+              </tr>
+              <tr>
+                <td>checkout</td>
+                <td>Créer et basculer vers la branch</td>
+                <td>git checkout -b nomDeMaNouvelleBranch</td>
+              </tr>
+              <tr>
+                <td>branch</td>
+                <td>Supprimer ma branch uniquement en local</td>
+                <td>git branch -d nomDeMaBranch</td>
+              </tr>
+              <tr>
+                <td>push</td>
+                <td>Supprimer ma branch même en distant</td>
+                <td>git push origin --delete nomDeMaBranch</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         </div>
       </section>
     </div>
@@ -136,27 +239,6 @@
 </html>
 
 <!--
-GESTION DE L'ORDINATEUR
-
-  <section>
-    <h2>Gestion de l'ordinateur</h2>
-    <div class="gris">
-      <p> <strong>passer en mode administrateur</strong>  </p>
-      <p class="command">sudo -s</p>
-    </div>
-    <div class="blanc">
-      <p> <strong>quitter le mode administrateur</strong>  </p>
-      <p class="command">exit</p>
-    </div>
-    <div class="gris">
-      <p> <strong>avoir la liste des paquets à mettre à jour</strong>  </p>
-      <p class="command">apt upgrade</p>
-    </div>
-    <div class="blanc">
-      <p> <strong>mettre à jour les paquets</strong>  </p>
-      <p class="command">apt install</p>
-    </div>
-  </section>
 
  autre
 
@@ -179,8 +261,3 @@ GESTION DE L'ORDINATEUR
     <p class="command">~</p>
   </div>
   </section>
- git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/egalland/test.git
-git push -u origin master -->
