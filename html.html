@@ -8,49 +8,250 @@
   </head>
   <body>
     <div class="container-fluid">
+      <h1>HTML</h1>
       <div class="row">
-        <div class="col-xl-6 tube">
+        <!-- TRONC GAUCHE -->
+        <div class="col-xl-6 tronc">
+          <!-- RACINE PRINCIPALE -->
           <div class="table-responsive">
-            <h2>HTML</h2>
+            <h2>Racine principale</h2>
             <table class="table-striped table-bordered">
               <thead>
                 <tr>
-                  <th>Commande</th>
+                  <th>Balise</th>
                   <th>Description</th>
                   <th>Exemple</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>&lt; &gt;</td>
-                  <td>Angle bracket</td>
-                  <td>&lt;html&gt;</td>
+                  <td>html</td>
+                  <td>La racine du document, il englobe tout</td>
+                  <td>&lt;html&gt;&lt;/html&gt;</td>
                 </tr>
+            </table>
+          </div>
+          <!-- METADONNEES DU DOCUMENT -->
+          <div class="table-responsive">
+            <h2>Métadonnées du document</h2>
+            <table class="table-striped table-bordered">
+              <thead>
                 <tr>
-                  <td>DOCTYPE</td>
-                  <td>Déclarer le type de document</td>
-                  <td>&lt;!DOCTYPE html&gt;</td>
+                  <th>Balise</th>
+                  <th>Description</th>
+                  <th>Exemple</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
-                  <td>head</td>
-                  <td></td>
-                  <td></td>
+                  <td>link</td>
+                  <td>Lien entre le document et une source externe</td>
+                  <td>&lt;link rel="stylesheet" href="assets/css/style.css" /&gt;</td>
                 </tr>
                 <tr>
                   <td>title</td>
-                  <td></td>
-                  <td></td>
+                  <td>Titre de la page(affiché dans l'onglet de la page)</td>
+                  <td>&lt;title&gtHTML&lt;/title&gt;</td>
                 </tr>
                 <tr>
-                  <td>link</td>
-                  <td></td>
-                  <td></td>
+                  <td>style</td>
+                  <td>Sert à faire du css sans feuille de style</td>
+                  <td>&lt;style&gt;p{color:blue;}&lt;/style&gt;</td>
                 </tr>
-              </tbody>
+                <tr>
+                  <td>meta</td>
+                  <td>Le reste des métadonnées qui n'ont pas de balise</td>
+                  <td>&lt;meta charset="UTF-8" /&gt;</td>
+                </tr>
             </table>
           </div>
-        </div>
-        <div class="col-xl-6 tube">
+          <!-- RACINE PRINCIPALE -->
+          <div class="table-responsive">
+            <h2>Racine principale</h2>
+            <table class="table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th>Balise</th>
+                  <th>Description</th>
+                  <th>Exemple</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>html</td>
+                  <td>Angle bracket</td>
+                  <td>&lt;html&gt;&lt;/html&gt;</td>
+                </tr>
+            </table>
+          </div>
+          <!-- RACINE DE SECTIONNEMENT -->
+          <div class="table-responsive">
+            <h2>Racine de sectionnement</h2>
+            <table class="table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th>Balise</th>
+                  <th>Description</th>
+                  <th>Exemple</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>body</td>
+                  <td>Le contenu de la page</td>
+                  <td>&lt;body&gt;&lt;/body&gt;</td>
+                </tr>
+            </table>
+          </div>
+          <!-- SECTIONNEMENT DU CONTENU -->
+          <div class="table-responsive">
+            <h2>Sectionnement du contenu</h2>
+            <table class="table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th>Balise</th>
+                  <th>Description</th>
+                  <th>Exemple</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>address</td>
+                  <td>Les informations du créateur/propriétaire du site</td>
+                  <td>&lt;address&gt;Ecrit par Emmanuel Galland&lt;/address&gt;</td>
+                </tr>
+                <tr>
+                  <td>article</td>
+                  <td>Contenu indépendant, prévu pour être distribué ou réutilisé</td>
+                  <td>&lt;article&gt;Un commentaire&lt;/article&gt;</td>
+                </tr>
+                <tr>
+                  <td>aside</td>
+                  <td>Un aparté</td>
+                  <td>&lt;aside&gt;&lt;/aside&gt;</td>
+                </tr>
+                <tr>
+                  <td>footer</td>
+                  <td>Pied de la page(auteur, copyright..)</td>
+                  <td>&lt;footer&gt;© 2018 www.website.com &lt;/footer&gt;</td>
+                </tr>
+                <tr>
+                  <td>header</td>
+                  <td>Regroupe l'introduction, la navigation</td>
+                  <td>&lt;header&gt;&lt;/header&gt;</td>
+                </tr>
+                <tr>
+                  <td>h1, h2, h3, h4, h5, h6</td>
+                  <td>Titres de différents niveaux</td>
+                  <td>&lt;h1&gt;Titre très important&lt;/h1&gt;</td>
+                </tr>
+                <tr>
+                  <td>nav</td>
+                  <td>Navigation</td>
+                  <td>&lt;nav&gt;&lt;a href"page2.html"&gt;Page 2&lt;/a&gt;&lt;/nav&gt;</td>
+                </tr>
+                <tr>
+                  <td>section</td>
+                  <td>Représente un "bloc" thématique de la page</td>
+                  <td>&lt;section&gt;&lt;/section&gt;</td>
+                </tr>
+            </table>
+          </div>
+          <!-- CONTENU TEXTUEL -->
+          <div class="table-responsive">
+            <h2>Contenu textuel</h2>
+            <table class="table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th>Balise</th>
+                  <th>Description</th>
+                  <th>Exemple</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>blockquote</td>
+                  <td>Bloc de citation</td>
+                  <td>&lt;blockquote&gt;&lt;/blockquote&gt;</td>
+                </tr>
+                <tr>
+                  <td>dd</td>
+                  <td>Définition du dt qui le précéde</td>
+                  <td>&lt;dd&gt;&lt;/dd&gt;</td>
+                </tr>
+                <tr>
+                  <td>dl</td>
+                  <td>Liste de description</td>
+                  <td>&lt;dl&gt;&lt;/dl&gt;</td>
+                </tr>
+                <tr>
+                  <td>dt</td>
+                  <td>Terme dans une liste de défiinition</td>
+                  <td>&lt;td&gt;&lt;/td&gt;</td>
+                </tr>
+                <tr>
+                  <td>div</td>
+                  <td>Conteneur générique, utilisé pour grouper des éléments</td>
+                  <td>&lt;div&gt;&lt;/div&gt;</td>
+                </tr>
+                <tr>
+                  <td>figcaption</td>
+                  <td>Ajoute une légende</td>
+                  <td>&lt;figcaption&gt;&lt;/figcaption&gt;</td>
+                </tr>
+                <tr>
+                  <td>figure</td>
+                  <td>Contenu indépendant(image,code,schéma)</td>
+                  <td>&lt;figure&gt;&lt;/figure&gt;</td>
+                </tr>
+                <tr>
+                  <td>hr</td>
+                  <td>Il représente une séparation thématique</td>
+                  <td>&lt;hr /&gt;</td>
+                </tr>
+                <tr>
+                  <td>li</td>
+                  <td>Une élément d'une liste</td>
+                  <td>&lt;li&gt;Elément d'une liste&lt;/li&gt;</td>
+                </tr>
+                <tr>
+                  <td>main</td>
+                  <td>Contenu principal du body</td>
+                  <td>&lt;main&gt;&lt;/main&gt;</td>
+                </tr>
+                <tr>
+                  <td>ol</td>
+                  <td>Liste ordonnée</td>
+                  <td>&lt;ol&gt;&lt;/ol&gt;</td>
+                </tr>
+                <tr>
+                  <td>p</td>
+                  <td>Paragraphe</td>
+                  <td>&lt;p&gt;Lorem ipsum&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                  <td>pre</td>
+                  <td>Texte préformaté</td>
+                  <td>&lt;pre&gt;&lt;/pre&gt;</td>
+                </tr>
+                <tr>
+                  <td>ul</td>
+                  <td>Liste non ordonnée(à puce)</td>
+                  <td>&lt;ul&gt;&lt;/ul&gt;</td>
+                </tr>
+            </table>
+          </div>
+          <!-- SEMANTIQUE DU TEXTE EN LIGNE -->
+          <!-- IMAGES ET MEDIAS -->
+          <!-- CONTENU EMBARQUE -->
+          <!-- SCRIPTS -->
+          <!-- GESTION DE L'EDITION -->
+          <!-- CONTENU TABULAIRE -->
+          <!-- FORMULAIRE -->
+          <!-- ELEMENTS INTERACTIFS -->
+          <!-- COMPOSANTS WEB -->
+        <!--TRONC DROIT -->
+        <div class="col-xl-6 tronc">
           <div class="table-responsive">
             <h2>HTML</h2>
             <table class="table-striped table-bordered">

@@ -16,25 +16,6 @@ version Ubuntu
 
 HTML
 
-p
-br
-h1
-strong
-mark
-ul
-ol
-li
-em
-a href title
-id
-class
-img src alt
-figure
-figcaption
-link rel href
-span
-div
-
 FLEXBOX
 
 CSS
@@ -42,3 +23,6 @@ CSS
 BS
 
 RAcCOURCI
+
+faire 2 tube à 6 lg pour
+ne pas avoir de vide entre les tableaux
